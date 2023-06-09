@@ -18,8 +18,6 @@ The program can be run on Linux by running these commands in terminal from exerc
 Then the program should write data to output_data.json.
 
 
-RUN gcc -o exercise02_solution src/exercise02_solution.c -ljansson
-
 Alternativly it can be run in the docker container by using these commands in terminal from exercises directory:
 1. docker build -t exercise02-solution .
 2. docker run -it exercise02-solution
